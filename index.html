@@ -49,8 +49,8 @@ input[type=text],input:not([type]),input[type=date],input[type=number],input[typ
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
 <script>
 /* ====== SETUP: paste your two Supabase values here (see SETUP.md) ====== */
-const SUPABASE_URL='PASTE_YOUR_PROJECT_URL_HERE';
-const SUPABASE_KEY='PASTE_YOUR_ANON_PUBLIC_KEY_HERE';
+const SUPABASE_URL='https://wmjxhkhncdpydlhepswl.supabase.co/rest/v1/';
+const SUPABASE_KEY='sb_publishable_u3ccEYYhACGXRoMEVE9x2A_kjYcnd2l';
 /* ======================================================================= */
 const O={title:["Mr","Mrs","Ms","Dr","Other"],gen:["Male","Female"],mar:["Single","Married","Divorced","Widowed"],idt:["National ID","Passport","Driver's Licence","Voter ID","Other"],emp:["Employed","Self-employed","Farmer","Student","Retired","Other"],acc:["Savings","Current","Regular / Susu Savings","Fixed / Term Deposit","Other"],stm:["By email","Collect at office","By post"],svc:["SMS Alerts","Mobile / USSD Banking","Internet Banking","ATM / Debit Card","Cheque Book","Loan Facility"],ent:["Limited Liability Co.","Company Limited by Guarantee","Partnership","Sole Proprietorship","Association / Society","Other"],mnd:["Any ONE signatory","Any TWO signatories jointly","ALL THREE jointly","Signatory 1 and any one other","Other"],risk:["Low","Medium","High"],yn:["Yes","No"]};
 const T=(k,l,w)=>[k,l,'t',0,w],D=(k,l)=>[k,l,'d'],S=(k,l,o)=>[k,l,'s',o],A=(k,l)=>[k,l,'a',0,1],C=(k,l,o)=>[k,l,'c',o,1],G=(k,l)=>[k,l,'g'];
